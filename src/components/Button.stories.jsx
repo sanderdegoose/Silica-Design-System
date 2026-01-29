@@ -1,9 +1,5 @@
 import Button from './Button';
-
-// Simple icon components for demonstration
-const PlusIcon = () => <span style={{ fontSize: '18px', fontWeight: 'bold' }}>+</span>;
-const DotsIcon = () => <span style={{ fontSize: '18px', fontWeight: 'bold' }}>•••</span>;
-const ArrowIcon = () => <span style={{ fontSize: '18px' }}>←</span>;
+import { AddIcon, MoreOptionsIcon, ArrowLeftIcon } from './Icons';
 
 export default {
   title: 'SILICA Design System/Button',
@@ -39,7 +35,7 @@ export const Primary = {
   args: {
     variant: 'primary',
     children: 'Label',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={18} color="currentColor" />,
   },
 };
 
@@ -47,7 +43,7 @@ export const PrimaryIconOnly = {
   args: {
     variant: 'primary',
     iconOnly: true,
-    icon: <DotsIcon />,
+    icon: <MoreOptionsIcon size={18} color="currentColor" />,
   },
 };
 
@@ -56,7 +52,7 @@ export const Secondary = {
   args: {
     variant: 'secondary',
     children: 'Label',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={18} color="currentColor" />,
   },
 };
 
@@ -64,7 +60,7 @@ export const SecondaryIconOnly = {
   args: {
     variant: 'secondary',
     iconOnly: true,
-    icon: <DotsIcon />,
+    icon: <MoreOptionsIcon size={18} color="currentColor" />,
   },
 };
 
@@ -73,7 +69,7 @@ export const Tertiary = {
   args: {
     variant: 'tertiary',
     children: 'Label',
-    icon: <ArrowIcon />,
+    icon: <ArrowLeftIcon size={18} color="currentColor" />,
   },
   parameters: {
     backgrounds: { default: 'light' },
@@ -84,7 +80,7 @@ export const TertiaryIconOnly = {
   args: {
     variant: 'tertiary',
     iconOnly: true,
-    icon: <DotsIcon />,
+    icon: <MoreOptionsIcon size={18} color="currentColor" />,
   },
   parameters: {
     backgrounds: { default: 'light' },
@@ -97,7 +93,7 @@ export const Disabled = {
     variant: 'primary',
     disabled: true,
     children: 'Label',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={18} color="currentColor" />,
   },
 };
 
@@ -106,7 +102,7 @@ export const DisabledIconOnly = {
     variant: 'primary',
     disabled: true,
     iconOnly: true,
-    icon: <DotsIcon />,
+    icon: <MoreOptionsIcon size={18} color="currentColor" />,
   },
 };
 
@@ -116,7 +112,7 @@ export const SmallButton = {
     variant: 'primary',
     size: 'small',
     children: 'Small',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={14} color="currentColor" />,
   },
 };
 
@@ -125,7 +121,7 @@ export const MediumButton = {
     variant: 'primary',
     size: 'medium',
     children: 'Medium',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={18} color="currentColor" />,
   },
 };
 
@@ -134,7 +130,7 @@ export const LargeButton = {
     variant: 'primary',
     size: 'large',
     children: 'Large',
-    icon: <PlusIcon />,
+    icon: <AddIcon size={20} color="currentColor" />,
   },
 };
 
@@ -145,32 +141,32 @@ export const CompleteShowcase = {
       <div>
         <h3 style={{ marginBottom: '16px' }}>Primary</h3>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          <Button variant="primary" icon={<PlusIcon />}>Label</Button>
-          <Button variant="primary" iconOnly icon={<DotsIcon />} />
+          <Button variant="primary" icon={<AddIcon size={18} color="currentColor" />}>Label</Button>
+          <Button variant="primary" iconOnly icon={<MoreOptionsIcon size={18} color="currentColor" />} />
         </div>
       </div>
 
       <div>
         <h3 style={{ marginBottom: '16px' }}>Secondary</h3>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          <Button variant="secondary" icon={<PlusIcon />}>Label</Button>
-          <Button variant="secondary" iconOnly icon={<DotsIcon />} />
+          <Button variant="secondary" icon={<AddIcon size={18} color="currentColor" />}>Label</Button>
+          <Button variant="secondary" iconOnly icon={<MoreOptionsIcon size={18} color="currentColor" />} />
         </div>
       </div>
 
       <div>
         <h3 style={{ marginBottom: '16px' }}>Tertiary</h3>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          <Button variant="tertiary" icon={<ArrowIcon />}>Label</Button>
-          <Button variant="tertiary" iconOnly icon={<DotsIcon />} />
+          <Button variant="tertiary" icon={<ArrowLeftIcon size={18} color="currentColor" />}>Label</Button>
+          <Button variant="tertiary" iconOnly icon={<MoreOptionsIcon size={18} color="currentColor" />} />
         </div>
       </div>
 
       <div>
         <h3 style={{ marginBottom: '16px' }}>Disabled</h3>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          <Button variant="primary" disabled icon={<PlusIcon />}>Label</Button>
-          <Button variant="primary" disabled iconOnly icon={<DotsIcon />} />
+          <Button variant="primary" disabled icon={<AddIcon size={18} color="currentColor" />}>Label</Button>
+          <Button variant="primary" disabled iconOnly icon={<MoreOptionsIcon size={18} color="currentColor" />} />
         </div>
       </div>
     </div>
@@ -192,9 +188,9 @@ export const HoverStatesDemo = {
         Hover over these buttons to see the color transitions:
       </p>
       <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-        <Button variant="primary" icon={<PlusIcon />}>Primary Hover</Button>
-        <Button variant="secondary" icon={<PlusIcon />}>Secondary Hover</Button>
-        <Button variant="tertiary" icon={<ArrowIcon />}>Tertiary Hover</Button>
+        <Button variant="primary" icon={<AddIcon size={18} color="currentColor" />}>Primary Hover</Button>
+        <Button variant="secondary" icon={<AddIcon size={18} color="currentColor" />}>Secondary Hover</Button>
+        <Button variant="tertiary" icon={<ArrowLeftIcon size={18} color="currentColor" />}>Tertiary Hover</Button>
       </div>
     </div>
   ),

@@ -1,7 +1,7 @@
 // Design tokens extracted from SILICA Design System
 // This file contains the color and component tokens from Figma
 
-// Primitive color scales
+// Primitive color scales (kept here for backward compatibility)
 export const colors = {
   orange: {
     dark: {
@@ -70,18 +70,6 @@ export const buttonTokens = {
       bg: colors.neutral.white,
     },
   },
-  textButton: {
-    default: {
-      text: colors.blue.dark[500],
-      icon: colors.blue.dark[500],
-      bg: 'transparent',
-    },
-    hover: {
-      text: colors.blue.dark[800],
-      icon: colors.blue.dark[800],
-      bg: 'transparent',
-    },
-  },
   disabled: {
     bg: colors.gray.primary[300],
     text: colors.gray.primary[800],
@@ -98,11 +86,12 @@ export const spacing = {
   xl: '24px',
 };
 
-// Typography tokens (adjust based on your Figma text styles)
+// Typography tokens - Button uses Body Bold S from design system
 export const typography = {
   button: {
+    fontFamily: 'Poppins, sans-serif',
     fontSize: '14px',
-    fontWeight: '500',
-    lineHeight: '20px',
+    fontWeight: 600,
+    lineHeight: '24px',
   },
 };

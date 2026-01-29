@@ -99,18 +99,20 @@ const Button = ({
   const buttonStyles = {
     ...getButtonStyles(),
     ...getSizeStyles(),
+    fontFamily: typography.button.fontFamily,
+    fontSize: typography.button.fontSize,
     fontWeight: typography.button.fontWeight,
+    lineHeight: typography.button.lineHeight,
     borderRadius: iconOnly ? '50%' : '24px', // Circular for icon-only, pill-shaped for regular
     cursor: disabled ? 'not-allowed' : 'pointer',
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
     gap: spacing.xs,
-    fontFamily: 'system-ui, -apple-system, sans-serif',
-    transition: 'all 0.2s ease',
+    transition: 'background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease',
     outline: 'none',
-    border: 'none',
     boxSizing: 'border-box',
+    minWidth: iconOnly ? 'auto' : '80px', // Prevents width fluctuation
   };
 
   const [isHovered, setIsHovered] = React.useState(false);

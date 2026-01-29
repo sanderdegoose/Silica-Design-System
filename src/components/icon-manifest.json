@@ -1,0 +1,538 @@
+[
+  {
+    "component": "A11yIcon",
+    "originalFile": "A11Y.svg"
+  },
+  {
+    "component": "AccesIcon",
+    "originalFile": "Acces.svg"
+  },
+  {
+    "component": "AddIcon",
+    "originalFile": "Add.svg"
+  },
+  {
+    "component": "AddImageIcon",
+    "originalFile": "Add image.svg"
+  },
+  {
+    "component": "AddUserIcon",
+    "originalFile": "Add user.svg"
+  },
+  {
+    "component": "ArrowDownIcon",
+    "originalFile": "Arrow Down.svg"
+  },
+  {
+    "component": "ArrowLeftIcon",
+    "originalFile": "arrow-left.svg"
+  },
+  {
+    "component": "ArrowRightIcon",
+    "originalFile": "Arrow right.svg"
+  },
+  {
+    "component": "ArrowUpIcon",
+    "originalFile": "Arrow Up.svg"
+  },
+  {
+    "component": "AscendingIcon",
+    "originalFile": "Ascending.svg"
+  },
+  {
+    "component": "AttachmentIcon",
+    "originalFile": "Attachment.svg"
+  },
+  {
+    "component": "BadgealertIcon",
+    "originalFile": "BadgeAlert.svg"
+  },
+  {
+    "component": "BadgecheckIcon",
+    "originalFile": "BadgeCheck.svg"
+  },
+  {
+    "component": "BadgecrossIcon",
+    "originalFile": "BadgeCross.svg"
+  },
+  {
+    "component": "BadgeinfoIcon",
+    "originalFile": "BadgeInfo.svg"
+  },
+  {
+    "component": "BadgequestionIcon",
+    "originalFile": "BadgeQuestion.svg"
+  },
+  {
+    "component": "BankpasIcon",
+    "originalFile": "Bankpas.svg"
+  },
+  {
+    "component": "BoxIcon",
+    "originalFile": "Box.svg"
+  },
+  {
+    "component": "BrightIcon",
+    "originalFile": "Bright.svg"
+  },
+  {
+    "component": "CalendarIcon",
+    "originalFile": "Calendar.svg"
+  },
+  {
+    "component": "CameraIcon",
+    "originalFile": "Camera.svg"
+  },
+  {
+    "component": "CancelIcon",
+    "originalFile": "Cancel.svg"
+  },
+  {
+    "component": "ChargeIcon",
+    "originalFile": "Charge.svg"
+  },
+  {
+    "component": "ChatIcon",
+    "originalFile": "Chat.svg"
+  },
+  {
+    "component": "CheckIcon",
+    "originalFile": "Check.svg"
+  },
+  {
+    "component": "ChevronDownIcon",
+    "originalFile": "Chevron-down.svg"
+  },
+  {
+    "component": "ChevronLeftIcon",
+    "originalFile": "Chevron-left.svg"
+  },
+  {
+    "component": "ChevronRightIcon",
+    "originalFile": "Chevron-Right.svg"
+  },
+  {
+    "component": "ChevronSmallDoubleLeftIcon",
+    "originalFile": "Chevron Small Double Left.svg"
+  },
+  {
+    "component": "ChevronUpIcon",
+    "originalFile": "Chevron-up.svg"
+  },
+  {
+    "component": "ClipboardIcon",
+    "originalFile": "Clipboard.svg"
+  },
+  {
+    "component": "CloseIcon",
+    "originalFile": "Close.svg"
+  },
+  {
+    "component": "CloudIcon",
+    "originalFile": "Cloud.svg"
+  },
+  {
+    "component": "CoinsIcon",
+    "originalFile": "Coins.svg"
+  },
+  {
+    "component": "CommentsIcon",
+    "originalFile": "Comments.svg"
+  },
+  {
+    "component": "ContrastIcon",
+    "originalFile": "Contrast.svg"
+  },
+  {
+    "component": "CopyIcon",
+    "originalFile": "Copy.svg"
+  },
+  {
+    "component": "CsvIcon",
+    "originalFile": "CSV.svg"
+  },
+  {
+    "component": "DarkIcon",
+    "originalFile": "Dark.svg"
+  },
+  {
+    "component": "DashboardIcon",
+    "originalFile": "Dashboard.svg"
+  },
+  {
+    "component": "DescendingIcon",
+    "originalFile": "descending.svg"
+  },
+  {
+    "component": "DocumentIcon",
+    "originalFile": "Document.svg"
+  },
+  {
+    "component": "DownloadIcon",
+    "originalFile": "Download.svg"
+  },
+  {
+    "component": "DraggableIcon",
+    "originalFile": "Draggable.svg"
+  },
+  {
+    "component": "DropdownIcon",
+    "originalFile": "Dropdown.svg"
+  },
+  {
+    "component": "EditIcon",
+    "originalFile": "Edit.svg"
+  },
+  {
+    "component": "EnvelopeIcon",
+    "originalFile": "Envelope.svg"
+  },
+  {
+    "component": "ExternalIcon",
+    "originalFile": "External.svg"
+  },
+  {
+    "component": "FavoriteIcon",
+    "originalFile": "Favorite.svg"
+  },
+  {
+    "component": "FileAlertIcon",
+    "originalFile": "File-alert.svg"
+  },
+  {
+    "component": "FileFailedIcon",
+    "originalFile": "File-failed.svg"
+  },
+  {
+    "component": "FileIcon",
+    "originalFile": "File.svg"
+  },
+  {
+    "component": "FilterIcon",
+    "originalFile": "Filter.svg"
+  },
+  {
+    "component": "FingerprintIcon",
+    "originalFile": "Fingerprint.svg"
+  },
+  {
+    "component": "FlagIcon",
+    "originalFile": "Flag.svg"
+  },
+  {
+    "component": "FlashDisabledIcon",
+    "originalFile": "Flash-Disabled.svg"
+  },
+  {
+    "component": "FlashIcon",
+    "originalFile": "Flash.svg"
+  },
+  {
+    "component": "FullScreenIcon",
+    "originalFile": "Full screen.svg"
+  },
+  {
+    "component": "GlobeIcon",
+    "originalFile": "Globe.svg"
+  },
+  {
+    "component": "HeartIcon",
+    "originalFile": "Heart.svg"
+  },
+  {
+    "component": "HideIcon",
+    "originalFile": "Hide.svg"
+  },
+  {
+    "component": "HistoryIcon",
+    "originalFile": "History.svg"
+  },
+  {
+    "component": "HomeIcon",
+    "originalFile": "Home.svg"
+  },
+  {
+    "component": "IdeaIcon",
+    "originalFile": "Idea.svg"
+  },
+  {
+    "component": "ImageIcon",
+    "originalFile": "Image.svg"
+  },
+  {
+    "component": "InboxIcon",
+    "originalFile": "Inbox.svg"
+  },
+  {
+    "component": "LaptopIcon",
+    "originalFile": "Laptop.svg"
+  },
+  {
+    "component": "LayersIcon",
+    "originalFile": "Layers.svg"
+  },
+  {
+    "component": "LinkIcon",
+    "originalFile": "Link.svg"
+  },
+  {
+    "component": "Location1Icon",
+    "originalFile": "Location-1.svg"
+  },
+  {
+    "component": "LocationIcon",
+    "originalFile": "Location.svg"
+  },
+  {
+    "component": "LockIcon",
+    "originalFile": "Lock.svg"
+  },
+  {
+    "component": "LogOutIcon",
+    "originalFile": "Log out.svg"
+  },
+  {
+    "component": "MapIcon",
+    "originalFile": "Map.svg"
+  },
+  {
+    "component": "MenuIcon",
+    "originalFile": "Menu.svg"
+  },
+  {
+    "component": "MicrophoneIcon",
+    "originalFile": "Microphone.svg"
+  },
+  {
+    "component": "MicrophoneOffIcon",
+    "originalFile": "Microphone-off.svg"
+  },
+  {
+    "component": "MinimizeIcon",
+    "originalFile": "Minimize.svg"
+  },
+  {
+    "component": "MinusIcon",
+    "originalFile": "Minus.svg"
+  },
+  {
+    "component": "Money2Icon",
+    "originalFile": "Money2.svg"
+  },
+  {
+    "component": "MoneyIcon",
+    "originalFile": "Money.svg"
+  },
+  {
+    "component": "MoreOptionsIcon",
+    "originalFile": "More options.svg"
+  },
+  {
+    "component": "NewtabIcon",
+    "originalFile": "NewTab.svg"
+  },
+  {
+    "component": "NoImageIcon",
+    "originalFile": "No image.svg"
+  },
+  {
+    "component": "NotificationIcon",
+    "originalFile": "Notification.svg"
+  },
+  {
+    "component": "NotificationOffIcon",
+    "originalFile": "Notification off.svg"
+  },
+  {
+    "component": "NumberIcon",
+    "originalFile": "Number.svg"
+  },
+  {
+    "component": "OverviewIcon",
+    "originalFile": "Overview.svg"
+  },
+  {
+    "component": "PdfIcon",
+    "originalFile": "PDF.svg"
+  },
+  {
+    "component": "Phone2Icon",
+    "originalFile": "Phone2.svg"
+  },
+  {
+    "component": "PhoneIcon",
+    "originalFile": "Phone.svg"
+  },
+  {
+    "component": "PinIcon",
+    "originalFile": "Pin.svg"
+  },
+  {
+    "component": "PlayerPauseIcon",
+    "originalFile": "Player-pause.svg"
+  },
+  {
+    "component": "PlayerPlayIcon",
+    "originalFile": "Player-play.svg"
+  },
+  {
+    "component": "PlayerSkipBackIcon",
+    "originalFile": "Player-skip-back.svg"
+  },
+  {
+    "component": "PlayerSkipForwardIcon",
+    "originalFile": "Player-skip-forward.svg"
+  },
+  {
+    "component": "PlayerStopIcon",
+    "originalFile": "Player-stop.svg"
+  },
+  {
+    "component": "PlayertrackNextIcon",
+    "originalFile": "PlayerTrack-next.svg"
+  },
+  {
+    "component": "PlayertrackPrevIcon",
+    "originalFile": "PlayerTrack-prev.svg"
+  },
+  {
+    "component": "PlusIcon",
+    "originalFile": "Plus.svg"
+  },
+  {
+    "component": "PopupIcon",
+    "originalFile": "Popup.svg"
+  },
+  {
+    "component": "PrintIcon",
+    "originalFile": "Print.svg"
+  },
+  {
+    "component": "RenewIcon",
+    "originalFile": "Renew.svg"
+  },
+  {
+    "component": "ReviewIcon",
+    "originalFile": "Review.svg"
+  },
+  {
+    "component": "RotateClockwiseIcon",
+    "originalFile": "Rotate-clockwise.svg"
+  },
+  {
+    "component": "RotateIcon",
+    "originalFile": "Rotate.svg"
+  },
+  {
+    "component": "SearchIcon",
+    "originalFile": "Search.svg"
+  },
+  {
+    "component": "SendIcon",
+    "originalFile": "Send.svg"
+  },
+  {
+    "component": "Settings1Icon",
+    "originalFile": "Settings 1.svg"
+  },
+  {
+    "component": "Settings2Icon",
+    "originalFile": "Settings 2.svg"
+  },
+  {
+    "component": "ShareAndroidIcon",
+    "originalFile": "Share Android.svg"
+  },
+  {
+    "component": "ShareIosIcon",
+    "originalFile": "Share iOS.svg"
+  },
+  {
+    "component": "ShieldIcon",
+    "originalFile": "Shield.svg"
+  },
+  {
+    "component": "ShippingIcon",
+    "originalFile": "Shipping.svg"
+  },
+  {
+    "component": "ShoppingCartIcon",
+    "originalFile": "Shopping cart.svg"
+  },
+  {
+    "component": "ShowIcon",
+    "originalFile": "Show.svg"
+  },
+  {
+    "component": "SpeakerIcon",
+    "originalFile": "Speaker.svg"
+  },
+  {
+    "component": "SplitIcon",
+    "originalFile": "Split.svg"
+  },
+  {
+    "component": "SummaryIcon",
+    "originalFile": "Summary.svg"
+  },
+  {
+    "component": "SwitchIcon",
+    "originalFile": "Switch.svg"
+  },
+  {
+    "component": "ThemeIcon",
+    "originalFile": "Theme.svg"
+  },
+  {
+    "component": "ThumbDownIcon",
+    "originalFile": "Thumb-down.svg"
+  },
+  {
+    "component": "ThumbUpIcon",
+    "originalFile": "Thumb-up.svg"
+  },
+  {
+    "component": "TimeIcon",
+    "originalFile": "Time.svg"
+  },
+  {
+    "component": "TrashIcon",
+    "originalFile": "Trash.svg"
+  },
+  {
+    "component": "TrendingDownIcon",
+    "originalFile": "Trending Down.svg"
+  },
+  {
+    "component": "TrendingUpIcon",
+    "originalFile": "Trending Up.svg"
+  },
+  {
+    "component": "UploadIcon",
+    "originalFile": "Upload.svg"
+  },
+  {
+    "component": "UserIcon",
+    "originalFile": "User.svg"
+  },
+  {
+    "component": "VideoIcon",
+    "originalFile": "Video.svg"
+  },
+  {
+    "component": "WarningIcon",
+    "originalFile": "Warning.svg"
+  },
+  {
+    "component": "WheelchairIcon",
+    "originalFile": "Wheelchair.svg"
+  },
+  {
+    "component": "WifiIcon",
+    "originalFile": "Wifi.svg"
+  },
+  {
+    "component": "XlsIcon",
+    "originalFile": "XLS.svg"
+  }
+]
