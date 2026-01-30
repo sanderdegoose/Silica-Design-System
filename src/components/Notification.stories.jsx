@@ -3,19 +3,57 @@ import Notification from './Notification';
 export default {
   title: 'SILICA Design System/Notification',
   component: Notification,
+  parameters: {
+    docs: {
+      description: {
+        component: `
+The Notification component is a versatile alert banner for displaying informational, warning, or critical messages.
+
+**Specifications:**
+- Height: 56px (fixed)
+- Typography: Poppins Regular 16px/28px
+- Border Radius: 0px (straight edges)
+
+**Variants:**
+- **Inform** (Blue): General information, updates, tips
+- **Warning** (Yellow): Important notices, cautions
+- **Alert** (Red): Errors, critical issues
+
+All colors and typography come from the SILICA Design System.
+        `,
+      },
+    },
+  },
   argTypes: {
     variant: {
       control: 'select',
       options: ['inform', 'warning', 'alert'],
-      description: 'Notification variant',
+      description: 'The notification variant/type',
+      table: {
+        type: { summary: 'string' },
+        defaultValue: { summary: 'inform' },
+      },
     },
     closable: {
       control: 'boolean',
-      description: 'Whether the notification can be closed',
+      description: 'Whether the notification can be closed by the user',
+      table: {
+        type: { summary: 'boolean' },
+        defaultValue: { summary: 'true' },
+      },
     },
     children: {
       control: 'text',
-      description: 'Notification content',
+      description: 'The notification message content',
+      table: {
+        type: { summary: 'ReactNode' },
+      },
+    },
+    onClose: {
+      description: 'Callback function when notification is closed',
+      table: {
+        type: { summary: '() => void' },
+      },
     },
   },
 };
@@ -26,6 +64,13 @@ export const Inform = {
     variant: 'inform',
     children: 'This is a notification text and can even include a link.',
     closable: true,
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Inform notifications are used for general information, updates, and non-critical messages. Background: #A3E3FC, Text: #053D50',
+      },
+    },
   },
 };
 
@@ -38,7 +83,7 @@ export const InformNotClosable = {
   parameters: {
     docs: {
       description: {
-        story: 'Inform notification without the close button.',
+        story: 'Inform notification without the close button. Height remains 56px.',
       },
     },
   },
@@ -51,6 +96,13 @@ export const Warning = {
     children: 'This is a notification text and can even include a link.',
     closable: true,
   },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Warning notifications are used for important notices and cautions. Background: #FFEF99, Text: #443900',
+      },
+    },
+  },
 };
 
 export const WarningNotClosable = {
@@ -58,6 +110,13 @@ export const WarningNotClosable = {
     variant: 'warning',
     children: 'This is a notification text and can even include a link.',
     closable: false,
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Warning notification without the close button.',
+      },
+    },
   },
 };
 
@@ -68,6 +127,13 @@ export const Alert = {
     children: 'This is a notification text and can even include a link.',
     closable: true,
   },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Alert notifications are used for errors and critical situations. Background: #FAD4D7, Text: #3F0B0F',
+      },
+    },
+  },
 };
 
 export const AlertNotClosable = {
@@ -76,6 +142,13 @@ export const AlertNotClosable = {
     children: 'This is a notification text and can even include a link.',
     closable: false,
   },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Alert notification without the close button.',
+      },
+    },
+  },
 };
 
 // All variants showcase
@@ -83,7 +156,7 @@ export const AllVariants = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', padding: '20px' }}>
       <div>
-        <h3 style={{ marginBottom: '12px', fontSize: '16px', fontWeight: '600' }}>
+        <h3 style={{ marginBottom: '12px', fontSize: '16px', fontWeight: '600', fontFamily: 'Poppins, sans-serif' }}>
           With Close Button
         </h3>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -100,7 +173,7 @@ export const AllVariants = {
       </div>
 
       <div style={{ marginTop: '24px' }}>
-        <h3 style={{ marginBottom: '12px', fontSize: '16px', fontWeight: '600' }}>
+        <h3 style={{ marginBottom: '12px', fontSize: '16px', fontWeight: '600', fontFamily: 'Poppins, sans-serif' }}>
           Without Close Button
         </h3>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -117,6 +190,13 @@ export const AllVariants = {
       </div>
     </div>
   ),
+  parameters: {
+    docs: {
+      description: {
+        story: 'Complete showcase of all three notification variants with and without close buttons. Note that the height remains consistent at 56px in all cases.',
+      },
+    },
+  },
 };
 
 // With different content lengths
@@ -134,6 +214,13 @@ export const DifferentLengths = {
       </Notification>
     </div>
   ),
+  parameters: {
+    docs: {
+      description: {
+        story: 'Notifications with different content lengths. The component adapts its height while maintaining 56px minimum height and proper vertical alignment.',
+      },
+    },
+  },
 };
 
 // Interactive example with links
@@ -151,6 +238,13 @@ export const WithLinks = {
       </Notification>
     </div>
   ),
+  parameters: {
+    docs: {
+      description: {
+        story: 'Notifications with interactive links. Links should be styled with underline and bold weight for emphasis.',
+      },
+    },
+  },
 };
 
 // Stacked notifications
@@ -180,7 +274,7 @@ export const StackedNotifications = {
   parameters: {
     docs: {
       description: {
-        story: 'Example of notifications stacked in the top-right corner of the screen.',
+        story: 'Example of notifications stacked in the top-right corner of the screen (toast-style). Use a gap of 12px between notifications.',
       },
     },
   },

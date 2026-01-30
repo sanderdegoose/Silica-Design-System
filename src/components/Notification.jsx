@@ -60,17 +60,24 @@ const Notification = ({
     <div
       style={{
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'flex-start',
         gap: '12px',
         padding: '16px',
         backgroundColor: tokens.bg,
         borderRadius: '0px',
         position: 'relative',
+        minHeight: '56px',
+        boxSizing: 'border-box',
       }}
       {...props}
     >
       {/* Icon */}
-      <div style={{ flexShrink: 0 }}>
+      <div style={{ 
+        flexShrink: 0, 
+        display: 'flex', 
+        alignItems: 'center',
+        height: '24px',
+      }}>
         <IconComponent size={24} color={tokens.icon} />
       </div>
       
@@ -84,16 +91,23 @@ const Notification = ({
       </div>
       
       {/* Close button (optional) - always reserves space */}
-      <div style={{ flexShrink: 0, width: '28px', height: '28px' }}>
+      <div style={{ 
+        flexShrink: 0, 
+        width: '24px', 
+        height: '24px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
         {closable && (
           <button
             onClick={handleClose}
             style={{
-              width: '28px',
-              height: '28px',
+              width: '24px',
+              height: '24px',
               background: 'none',
               border: 'none',
-              padding: '4px',
+              padding: '0',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
