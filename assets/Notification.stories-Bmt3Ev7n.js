@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-u17CrQMm.js";import{N as i}from"./Notification-Ckfv_YZr.js";import"./iframe-BSRPPBb8.js";import"./preload-helper-PPVm8Dsz.js";import"./colors-CM_D8zru.js";import"./typography-CWLdSX6A.js";import"./Icons-CLW_9TjV.js";const v={title:"SILICA Design System/Notification",component:i,parameters:{docs:{description:{component:`
+import{j as e}from"./jsx-runtime-u17CrQMm.js";import{N as i}from"./Notification-DYhv1HGN.js";import"./iframe-DookfvhP.js";import"./preload-helper-PPVm8Dsz.js";import"./colors-CM_D8zru.js";import"./typography-CWLdSX6A.js";import"./Icons-CFvTfW8l.js";const v={title:"SILICA Design System/Notification",component:i,parameters:{docs:{description:{component:`
 The Notification component is a versatile alert banner for displaying informational, warning, or critical messages.
 
 **Specifications:**
