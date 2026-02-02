@@ -3,13 +3,28 @@ const i={title:"Mendix Integration/Notification Widget",tags:["autodocs"],parame
 
 The SILICA Notification component has been implemented as a Mendix pluggable widget, allowing you to use the same design system in your Mendix applications.
 
-## Overview
+## Visual Reference
 
-The Mendix Notification widget provides the same three variants available in the React component:
+### Inform Variant
+![Inform Notification](https://via.placeholder.com/600x80/2563eb/1e3a8a?text=Inform+Notification)
 
-- **Inform** - For general information and updates
-- **Warning** - For caution messages and important notices  
-- **Alert** - For critical errors and urgent attention
+Used for successful operations, helpful information, and status updates.
+
+---
+
+### Warning Variant
+![Warning Notification](https://via.placeholder.com/600x80/ea580c/7c2d12?text=Warning+Notification)
+
+Used for important notices, potential issues, and upcoming changes.
+
+---
+
+### Alert Variant
+![Alert Notification](https://via.placeholder.com/600x80/dc2626/7f1d1d?text=Alert+Notification)
+
+Used for critical errors, failed operations, and urgent actions.
+
+---
 
 ## Installation
 
@@ -206,6 +221,20 @@ The widget follows WCAG 2.1 AA standards:
 **Widget Version**: 1.0.0  
 **Mendix Compatibility**: 9.x and above  
 **Last Updated**: February 2026
+
+---
+
+## Adding Visual Examples
+
+To add actual screenshots of the Mendix widget:
+
+1. Run the widget in a Mendix application
+2. Take screenshots of each variant (Inform, Warning, Alert)
+3. Save the images in your Storybook's \`public\` folder (e.g., \`public/images/mendix/\`)
+4. Replace the placeholder image URLs above with your actual image paths:
+   - \`![Inform Notification](./images/mendix/notification-inform.png)\`
+   - \`![Warning Notification](./images/mendix/notification-warning.png)\`
+   - \`![Alert Notification](./images/mendix/notification-alert.png)\`
         `}}}},e={render:()=>null};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`{
   render: () => null
 }`,...e.parameters?.docs?.source}}};const o=["Documentation"];export{e as Documentation,o as __namedExportsOrder,i as default};
